@@ -40,3 +40,9 @@
 ----------------------------------------------------------
 
 ## Docker Image Creation, Management and Registry
+
+### After you build a Dockerfile, run it with
+`docker build -t <directory name where Dockerfile exists> .`
+### Then run image with
+`docker run -d -p 8080:80 <directory name where Dockerfile exists>`
+`curl localhost:8080`
